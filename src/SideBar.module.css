@@ -1,0 +1,147 @@
+
+
+.sideBarContainer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+
+
+
+h2
+{
+    margin-bottom: 20px;
+    color: gray;
+    text-align: left;
+}
+
+.archives
+{
+ display: flex;
+    flex-direction: column;
+}
+.social
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.advertisement
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.narrowCardContainer
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.advertisementContainer
+{
+
+}
+.twitterIconContainer,.pinterestIconContainer,.facebookIconContainer,.linkedinIconContainer
+{
+    background-color: #03ABF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor:pointer;
+}
+
+.twitterIconContainer
+{
+    background-color: #03ABF4;
+}
+.facebookIconContainer
+{
+    background-color: #4168B3;
+}
+.linkedinIconContainer
+{
+    background-color: #0275B4;
+}
+.pinterestIconContainer
+{
+    background-color: #CE211D;
+}
+
+.twitterIcon,.facebookIcon,.pinterestIcon,.linkedinIcon
+{
+    color: white;
+    font-size: 30px;
+}
+
+.archivesContainer
+{
+        display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.eachArchive
+{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 20px;
+    background-color: white;
+    text-align: left;
+    cursor: pointer;
+}
+
+.socialContainer
+{
+    background-color: white;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.popularPosts
+{
+
+}
+
+.advertisementContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #f53b57;
+    border: 5px solid #f53b57;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1700px) {
+    .eachArchive
+    {
+        text-align: center;
+    }
+}
+
+@media (max-width:1400px) {
+    h2
+    {
+        text-align: center;
+    }
+}

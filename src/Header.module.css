@@ -1,0 +1,39 @@
+
+header
+{
+    overflow: hidden;
+}
+.headerImageContainer
+{
+  width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.headerImage{
+  height: 600px;
+    width: 100%;
+}
+
+caption
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.headerTitle1
+{
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    letter-spacing: 0.2cm;
+}
+
+.headerTitle2
+{
+    color: white;
+    font-size: 20px;
+}

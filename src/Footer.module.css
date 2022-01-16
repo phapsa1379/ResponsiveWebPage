@@ -1,0 +1,57 @@
+
+
+
+footer
+{
+    padding: 30px 100px;
+    padding-top: 60px;
+    background-color:#1e272e;
+    color: white;
+    margin-top: 100px;
+}
+
+.title
+{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 10px 0;
+}
+.copyRightPart
+{
+   padding-top: 20px;
+    color: gray;
+    border-top: 2px solid gray;
+    height: 40px;
+    font-size: 20px;
+}
+
+.firstPart
+{
+display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.text
+{
+    color: gray;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1cm;
+}
+
+
+@media (max-width:1400px)
+{
+    .firstPart
+    {
+        flex-wrap: wrap;
+
+    }
+    .text
+    {
+        text-align: center;
+    }
+}

@@ -1,0 +1,72 @@
+.eachBigCard
+{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px 0;
+    position: relative;
+}
+.eachBigCard::after
+{
+    content:'+';
+    position: absolute;
+    right: 20px;
+    font-weight: 900;
+    bottom: 0;
+    transform: translate(-50%,50%);
+    height: 70px;
+    width: 70px;
+    font-size: 30px;
+    color: white;
+    background-color: #ffa801;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    cursor:pointer;
+}
+.textPart
+{
+    min-width: 60%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.imgBigCard
+{
+   min-width: 40%;
+    min-height: 400px;
+
+}
+
+.title
+{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.subTitle
+{
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 20px;
+
+}
+
+.text
+{
+    color: gray;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1cm;
+}
+
+@media (max-width:1400px) {
+    .eachBigCard
+    {
+        flex-direction: column;
+    }
+}

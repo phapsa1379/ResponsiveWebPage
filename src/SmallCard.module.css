@@ -1,0 +1,31 @@
+.eachSmallCard
+{
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    align-items: center;
+}
+
+.imageSmallCard
+{
+
+    margin-bottom: 15px;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+}
+
+.titleSmallCard
+{
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textSmallCard
+{
+font-size: 20px;
+    color: gray;
+}
